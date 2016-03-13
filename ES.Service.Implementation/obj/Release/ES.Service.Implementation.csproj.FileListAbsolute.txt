@@ -1,0 +1,11 @@
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.Service.Implementation.dll
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.Service.Implementation.pdb
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.Biz.Contract.dll
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.Service.Contract.dll
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.ValueObjects.dll
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.Biz.Contract.pdb
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.Service.Contract.pdb
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\bin\Release\ES.ValueObjects.pdb
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\obj\Release\ES.Service.Implementation.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\obj\Release\ES.Service.Implementation.dll
+E:\Mine Project\EnggStudents.in\ES.Service.Implementation\obj\Release\ES.Service.Implementation.pdb

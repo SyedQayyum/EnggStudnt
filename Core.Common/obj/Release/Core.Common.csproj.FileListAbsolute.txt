@@ -1,0 +1,8 @@
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Release\Core.Common.dll
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Release\Core.Common.pdb
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Release\AutoMapper.dll
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Release\AutoMapper.pdb
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Release\AutoMapper.xml
+E:\Mine Project\EnggStudents.in\Core.Common\obj\Release\Core.Common.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\Core.Common\obj\Release\Core.Common.dll
+E:\Mine Project\EnggStudents.in\Core.Common\obj\Release\Core.Common.pdb

@@ -1,0 +1,14 @@
+E:\Mine Project\EngineeringStudents\ES.ValueObjects\bin\Debug\ES.ValueObjects.dll
+E:\Mine Project\EngineeringStudents\ES.ValueObjects\bin\Debug\ES.ValueObjects.pdb
+E:\Mine Project\EngineeringStudents\ES.ValueObjects\obj\Debug\ES.ValueObjects.dll
+E:\Mine Project\EngineeringStudents\ES.ValueObjects\obj\Debug\ES.ValueObjects.pdb
+E:\Mine Project\EngineeringStudents\ES.ValueObjects\obj\Debug\ES.ValueObjects.csprojResolveAssemblyReference.cache
+E:\Mine Project\PractiseProject\ES.ValueObjects\bin\Debug\ES.ValueObjects.dll
+E:\Mine Project\PractiseProject\ES.ValueObjects\bin\Debug\ES.ValueObjects.pdb
+E:\Mine Project\PractiseProject\ES.ValueObjects\obj\Debug\ES.ValueObjects.dll
+E:\Mine Project\PractiseProject\ES.ValueObjects\obj\Debug\ES.ValueObjects.pdb
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\bin\Debug\ES.ValueObjects.dll
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\bin\Debug\ES.ValueObjects.pdb
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\obj\Debug\ES.ValueObjects.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\obj\Debug\ES.ValueObjects.dll
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\obj\Debug\ES.ValueObjects.pdb

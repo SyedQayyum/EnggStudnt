@@ -1,0 +1,216 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Engineering Students</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/EngineeringStudents.ico">
+    <meta name="keywords" content="Engineering Students" />
+    <meta name="description" content="Engineering solutions" />
+    <link rel="stylesheet" type="text/css" href="~/Styles/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="~/Styles/custom-style.css" />
+    <link rel="stylesheet" type="text/css" href="~/Styles/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Styles/megamenu.css">
+    @RenderSection("styles", false)
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="wrap">
+
+                <div class="social-media">
+                    <ul class="subscribe">
+                        <li><a href="#" target="_blank" title="Facebook" class="facebook"> </a></li>
+                        <li><a href="#" target="_blank" title="Twitter" class="twitter"> </a></li>
+                        <li><a href="#" target="_blank" title="Linkedin" class="linkedIN"> </a></li>
+                        <li><a href="#" target="_blank" title="Blogs" class="Blogs"> </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="index.html"><img src="~/Images/logo.png" title="Engineering Students" alt="" /></a>
+                </div>
+
+                <ul class="megamenu skyblue">
+                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a> </li>
+                    <li class="grid">
+                        <a href="#"><i class="fa fa-th-list"></i> Syllabus</a>
+                        <div class="megapanel Syllabus-grids">
+                            <div class="row">
+                                <div class="col2">
+                                    <strong><a href="#">EEE</a></strong>
+                                    <p>Electrical and Electronics Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">ECE</a></strong>
+                                    <p>Electronics and Communication Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">CSE</a></strong>
+                                    <p>Computer Science & Electronic Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">IT</a></strong>
+                                    <p>Techonology in Information Science & Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">CIVIL</a></strong>
+                                    <p>Engineering in Civil Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">ME</a></strong>
+                                    <p>Engineering in Mechanical Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-file-text-o"></i> Question Papers</a>
+                        <div class="megapanel Questionpaper-grids">
+                            <div class="row">
+                                <div class="col2">
+                                    <strong><a href="#">EEE</a></strong>
+                                    <p>Electrical and Electronics Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">ECE</a></strong>
+                                    <p>Electronics and Communication Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">CSE</a></strong>
+                                    <p>Computer Science & Electronic Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">IT</a></strong>
+                                    <p>Techonology in Information Science & Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">CIVIL</a></strong>
+                                    <p>Engineering in Civil Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                                <div class="col2">
+                                    <strong><a href="#">ME</a></strong>
+                                    <p>Engineering in Mechanical Engineering</p>
+                                    <span class="small_button orange"><a href="#">Learn More</a></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </li>
+
+                    <li><a href="#"><i class="fa fa-book"></i> Notes</a></li>
+
+                    <li><a href="#"><i class="fa fa-search"></i> Find Colleges</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header><!-- /header -->
+
+    <div class="main">
+        <div class="main-top">
+            <div class="wrap">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+    <div class="copy-right">
+        <div class="wrap">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="col-xs-4">
+                        <a href="index.htm">
+                            <img class="img-responsive" src="images/logo.png" alt="" />
+                        </a>
+                    </div>
+                    <p>© Copyright 2015. All Rights Reserved.</p>
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="copy-right-links">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Advertise with us</a></li>
+                            <li><a href="#">Privacy Policies</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Copy Right -->
+
+    <a href="#" id="toTop"> </a>
+    <!-- Scripts -->
+    <script src="~/Scripts/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/knockout-3.3.0.js" type="text/javascript"></script>
+    <script src="~/Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/jquery.query-object.js" type="text/javascript"></script>
+
+    @RenderSection("scripts", false)
+    <script type="text/javascript" src="~/Scripts/megamenu.js"></script>
+    <script>$(document).ready(function () { $(".megamenu").megamenu(); });</script>
+
+
+    <!-- On Scorll Fixed Header -->
+    <script src="~/Scripts/classie.js"></script>
+    <script>
+        function init() {
+            window.addEventListener('scroll', function (e) {
+                var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                    shrinkOn = 100,
+                    header = document.querySelector("header");
+                if (distanceY > shrinkOn) {
+                    classie.add(header, "smaller");
+                } else {
+                    if (classie.has(header, "smaller")) {
+                        classie.remove(header, "smaller");
+                    }
+                }
+            });
+        }
+        window.onload = init();
+    </script>
+    <!-- Top Scrolling -->
+    <script type="text/javascript" src="~/Scripts/move-top.js"></script>
+    <script type="text/javascript" src="~/Scripts/easing.js"></script>
+    <script>
+        $(document).ready(function () {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+        });
+    </script>
+</body>
+</html>

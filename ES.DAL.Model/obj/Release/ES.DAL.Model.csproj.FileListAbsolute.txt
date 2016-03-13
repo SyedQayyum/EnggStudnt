@@ -1,0 +1,5 @@
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\bin\Release\ES.DAL.Model.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\bin\Release\ES.DAL.Model.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\obj\Release\ES.DAL.Model.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\obj\Release\ES.DAL.Model.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\obj\Release\ES.DAL.Model.pdb

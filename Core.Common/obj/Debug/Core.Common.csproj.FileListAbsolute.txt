@@ -1,0 +1,17 @@
+E:\Mine Project\PractiseProject\Core.Common\bin\Debug\Core.Common.dll
+E:\Mine Project\PractiseProject\Core.Common\bin\Debug\Core.Common.pdb
+E:\Mine Project\PractiseProject\Core.Common\bin\Debug\AutoMapper.dll
+E:\Mine Project\PractiseProject\Core.Common\bin\Debug\AutoMapper.pdb
+E:\Mine Project\PractiseProject\Core.Common\bin\Debug\AutoMapper.xml
+E:\Mine Project\PractiseProject\Core.Common\obj\Debug\Core.Common.dll
+E:\Mine Project\PractiseProject\Core.Common\obj\Debug\Core.Common.pdb
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Debug\Core.Common.dll
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Debug\Core.Common.pdb
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Debug\AutoMapper.dll
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Debug\System.Web.Mvc.dll
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Debug\AutoMapper.pdb
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Debug\AutoMapper.xml
+E:\Mine Project\EnggStudents.in\Core.Common\bin\Debug\System.Web.Mvc.xml
+E:\Mine Project\EnggStudents.in\Core.Common\obj\Debug\Core.Common.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\Core.Common\obj\Debug\Core.Common.dll
+E:\Mine Project\EnggStudents.in\Core.Common\obj\Debug\Core.Common.pdb

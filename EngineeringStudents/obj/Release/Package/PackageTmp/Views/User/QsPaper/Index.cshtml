@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+
+
+<div class="main">
+    <div class="wrap">
+        <div class="main-top">
+            @*<div class="sidebar-left" id="sideNavigation">
+                <div class="sidebar-heading">
+                    <h2 data-bind="text:branchShortName">EEE</h2>
+                    <h3 data-bind="text:branchName">Electrical and Electronics Engineering</h3>
+                </div>
+                <div class="u-vmenu">
+                    <ul data-bind="foreach:sideContentArray">
+                        <li>
+                            <a href="#">Semester I</a>
+                            <ul data-bind="foreach:sideContentInnerArray">
+                                <li><a href="#" data-bind="attr:{href:someLink,title:someTitle}" title="Technical English">Technical English</a></li>
+                                <li><a href="#" title="Mathematics">Mathematics</a></li>
+                                <li><a href="#" title="Engineering Physics">Engineering Physics</a></li>
+                                <li><a href="#" title="Engineering Chemistry">Engineering Chemistry</a></li>
+                                <li><a href="#" title="Engineering Graphics">Engineering Graphics</a></li>
+                                <li><a href="#" title="Fundamentals of Computing and Programming">Fundamentals of Computing and Programming</a></li>
+                                <li><a href="#" title="Computer Practice Laboratory">Computer Practice Laboratory</a></li>
+                                <li><a href="#" title="Engineering Practices Laboratory">Engineering Practices Laboratory</a></li>
+                                <li><a href="#" title="Physics and Chemistry Laboratory">Physics and Chemistry Laboratory</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#">Item without subitems</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>*@
+
+            <div class="content">
+                <div class="ad-placeholder" >
+                    <img src="~/images/ad4.gif" alt="" id="topAdvertisement" />
+                </div>
+                <div class="content-desc">
+                    <div class="post_data" data-bind="html:pageContent" id="pageContent">
+
+                    </div>
+
+                    <div class="pagination-nxt-prev">
+                            @*<nav>
+                                <ul class="pager">
+                                    <li class="previous"><a href="#" data-bind="attr:{href:previuosPage}"><span aria-hidden="true">&larr;</span> Previous Page </a></li>
+                                    <li class="next"><a href="#" data-bind="attr:{href:nextPage}">Next Page  <span aria-hidden="true">&rarr;</span></a></li>
+                                </ul>
+                            </nav>*@
+                        </div>
+
+                        <div class="ad-placeholder" >
+                            <img src="images/ad5.png" alt="" id="bottomAdvertisement" />
+                        </div>
+
+                </div>
+            </div>
+
+            <div class="sidebar-right" >
+                    <div class="ad-placeholder">
+                        <img src="images/ad1.gif" alt="" id="rightAdvertisement1" />
+                    </div>
+                    <div class="ad-placeholder" style="margin-top:10px;">
+                        <img src="images/ad3.gif" alt="" id="rightAdvertisement2" />
+                    </div>
+                    <div class="ad-placeholder" style="margin-top:10px;">
+                        <img src="images/ad2.gif" alt="" id="rightAdvertisement3" />
+                    </div>
+                </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    <script src="~/Scripts/User/QsPaper/GetQsPaper.js" type="text/javascript"></script>
+} 

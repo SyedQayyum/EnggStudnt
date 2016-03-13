@@ -1,0 +1,348 @@
+﻿@{
+    ViewBag.Title = "CollegeDetails";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<div id="PageBody" style="display:none">
+
+    <div class="content college-details-page">
+
+        <div class="ad-placeholder">
+            <img src="~/images/ad4.gif" alt="" id="topAdvertisement" />
+        </div>
+
+        <div class="content-desc">
+
+            <div class="college-details" id="collegeDetails">
+                <div class="college-logo">
+                    <img data-bind="attr:{src:collLogo,alt:collName,title:collName}" />
+                </div>
+                <div class="college-desc">
+                    <h3 data-bind="text:collName"></h3>
+
+                    <h4 data-bind="text:collAddress"></h4>
+
+                    <div class="college-desc-list">
+                        <ul>
+                            <li>Ph: <span data-bind="text:collPhone"></span></li>
+                            <li>Fax: <span data-bind="text:collFax"></span></li>
+                            <li>Email : <span><a data-bind="attr:{href:collEmail}"><span data-bind="text:collEmail"></span></a></span></li>
+                        </ul>
+                        <ul>
+                            <li>Estd: <span data-bind="text:collStablishedYear">1999</span></li>
+                            <li>
+                                Rating: <div class="rating rating2">
+                                    <span class="star_rating_small">
+                                        <span class="star star-red star-xl">
+                                            <span data-bind="style:{width:collRating}"></span>
+                                        </span>
+                                    </span>
+                            </li>
+                            <li>Url : <span><a data-bind="attr:{href:collWebsite}" target="_blank"><span data-bind="text:collWebsite"></span></a></span></li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="college-courses">
+                        <span>Courses Offered : </span>
+                        <!--ko text:coursesOffered-->
+                        <!--/ko-->
+                    </div>
+
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="write-review" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog">
+                    <div class="modal-content modal-content2">
+
+                        <button type="button" class="close popup-close2" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                        <div class="social_media">
+                            <ul>
+                                <li>
+                                    <a href="#" class="btn btn-block btn-social btn-lg btn-facebook">
+                                        <i class="fa fa-facebook"></i> Sign in Facebook
+                                    </a>
+                                </li>
+                                <li>OR</li>
+                                <li>
+                                    <a href="#" class="btn btn-block btn-social btn-lg btn-google">
+                                        <i class="fa fa-google-plus"></i> Sign in Google
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="contact-form popup-form reviews-form">
+                                <form name="Review form" method="post">
+
+                                    <div>
+                                        <span><input type="text" name="FirstName" class="textbox" placeholder="Review Title"></span>
+                                    </div>
+
+                                    <div>
+                                        <span class="span-txt">Rate College Placement</span>
+                                        <div class="rating rating3">
+                                            <div class="stars">
+                                                <form>
+                                                    <input class="star star-5" id="Placementstar-5" type="radio" name="star" />
+                                                    <label class="star star-5" for="Placementstar-5"></label>
+                                                    <input class="star star-4" id="Placementstar-4" type="radio" name="star" />
+                                                    <label class="star star-4" for="Placementstar-4"></label>
+                                                    <input class="star star-3" id="Placementstar-3" type="radio" name="star" />
+                                                    <label class="star star-3" for="Placementstar-3"></label>
+                                                    <input class="star star-2" id="Placementstar-2" type="radio" name="star" />
+                                                    <label class="star star-2" for="Placementstar-2"></label>
+                                                    <input class="star star-1" id="Placementstar-1" type="radio" name="star" />
+                                                    <label class="star star-1" for="Placementstar-1"></label>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="span-txt">Rate College Faculty</span>
+                                        <div class="rating rating3">
+                                            <div class="stars">
+                                                <form>
+                                                    <input class="star star-5" id="Facultystar-5" type="radio" name="star" />
+                                                    <label class="star star-5" for="Facultystar-5"></label>
+                                                    <input class="star star-4" id="Facultystar-4" type="radio" name="star" />
+                                                    <label class="star star-4" for="Facultystar-4"></label>
+                                                    <input class="star star-3" id="Facultystar-3" type="radio" name="star" />
+                                                    <label class="star star-3" for="Facultystar-3"></label>
+                                                    <input class="star star-2" id="Facultystar-2" type="radio" name="star" />
+                                                    <label class="star star-2" for="Facultystar-2"></label>
+                                                    <input class="star star-1" id="Facultystar-1" type="radio" name="star" />
+                                                    <label class="star star-1" for="Facultystar-1"></label>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <span class="span-txt">Rate College Environment</span>
+                                        <div class="rating rating3">
+                                            <div class="stars">
+                                                <form>
+                                                    <input class="star star-5" id="Lifestar-5" type="radio" name="star" />
+                                                    <label class="star star-5" for="Lifestar-5"></label>
+                                                    <input class="star star-4" id="Lifestar-4" type="radio" name="star" />
+                                                    <label class="star star-4" for="Lifestar-4"></label>
+                                                    <input class="star star-3" id="Lifestar-3" type="radio" name="star" />
+                                                    <label class="star star-3" for="Lifestar-3"></label>
+                                                    <input class="star star-2" id="Lifestar-2" type="radio" name="star" />
+                                                    <label class="star star-2" for="Lifestar-2"></label>
+                                                    <input class="star star-1" id="Lifestar-1" type="radio" name="star" />
+                                                    <label class="star star-1" for="Lifestar-1"></label>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div>
+                                        <span><textarea class="textbox textareabox" placeholder="Share your experience at the college, help other aspirants make a good choice"></textarea></span>
+                                    </div>
+
+                                    <div style="text-align:center;">
+                                        <span><input type="submit" name="submit" class="submit-btn" value="Submit"></span>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+
+
+            <div class="view-college-reviews" id="collegeReviews">
+                <div class="list-page-heading">
+                    <h2>Reviews of <span id="collgeName"></span></h2>
+                </div>
+
+                <!-- Empty Reviews  --->
+                @*<div class="view-empty">
+                        <div class="empty-review">
+                            <p><span>No reviews yet</span><br>You can help other students. Be the first one to write a review about this college.</p>
+                            <div class="empty-review-icon">
+
+                                <div class="rating">
+                                    <span class="star_rating_small">
+                                        <span class="star star-red star-xl">
+                                            <span style="width:0"></span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                            <a href="javascript:void(0);" data-toggle="modal" data-target="#write-review">Write a review</a>
+                        </div>
+                    </div>*@ <!-- Empty Reviews  -->
+                <!-- Reviews Start-->
+                <!--ko foreach:reviewArray-->
+                <div class="review-box">
+                    <div class="review-title">
+                        <a href="#">Hell out here at S.I.T</a>
+                    </div>
+                    <div class="review-user-details">
+                        <div class="rating">
+                            <span class="star_rating_small">
+                                <span class="star star-red star-xl">
+                                    <span data-bind="style:{width:revRating}" style="width:30%"></span>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="postedby-name">
+                            <label for="posted-by"><span class="glyphicon glyphicon-user"></span> Posted by:</label> <span data-bind="text:revUserName"></span>
+                        </div>
+                        <div class="time-in">
+                            <span class="glyphicon glyphicon-time"></span>
+                            <span class="time-2">6 days 6 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="review-desc">
+                        <p data-bind="text:revReview">
+                        </p>
+                    </div>
+                </div>
+                <!--/ko-->
+                <!-- Reviews End-->
+                <!-- Empty Reviews  --->
+                <div class="view-empty">
+                    <div class="empty-review">
+                        <p>You can help other students. What do you think about this college.</p>
+                        <a href="javascript:void(0);" data-toggle="modal" data-target="#write-review">Write a review</a>
+                    </div>
+                </div>
+                <!-- Empty Reviews  -->
+                @*<div class="review-box">
+                        <div class="review-title">
+                            <a href="#">Awesome is nt a word...........!!!</a>
+                        </div>
+                        <div class="review-user-details">
+                            <div class="rating">
+                                <span class="star_rating_small">
+                                    <span class="star star-red star-xl">
+                                        <span style="width:20%"></span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="postedby-name">
+                                <label for="posted-by"><span class="glyphicon glyphicon-user"></span> Posted by:</label> <a href="#" title="Harendra">Harendra Reddy</a>
+                            </div>
+                            <div class="time-in">
+                                <span class="glyphicon glyphicon-time"></span>
+                                <span class="time-2">2 Weeks 6 days ago</span>
+                            </div>
+                        </div>
+                        <div class="review-desc">
+                            <p>
+                                The students who want to enjoy their college life should never dare to take admission in this college .This college holds the record of failing students in the year 2013 nearly 180 first year students got a year back .The administration have a discriminative behavior towards students of north india
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="review-box">
+                        <div class="review-title">
+                            <a href="#">College infrastructure is good</a>
+                        </div>
+                        <div class="review-user-details">
+                            <div class="rating">
+                                <span class="star_rating_small">
+                                    <span class="star star-red star-xl">
+                                        <span style="width:60%"></span>
+                                    </span>
+                                </span>
+                            </div>
+                            <div class="postedby-name">
+                                <label for="posted-by"><span class="glyphicon glyphicon-user"></span> Posted by:</label> <a href="#" title="Harendra">Harendra</a>
+                            </div>
+                            <div class="time-in">
+                                <span class="glyphicon glyphicon-time"></span>
+                                <span class="time-2">6 days 6 hours ago</span>
+                            </div>
+                        </div>
+                        <div class="review-desc">
+                            <p>
+                                The students who want to enjoy their college life should never dare to take admission in this college .This college holds the record of failing students in the year 2013 nearly 180 first year students got a year back .The administration have a discriminative behavior towards students of north india
+                            </p>
+                        </div>
+                    </div>*@
+
+                <!-- End Reviews -->
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="mypopup">
+        <div class="modal-dialog modal-dialog2">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Find the right college for you</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="contact-form popup-form">
+                        <form name="contact" method="post">
+                            <div><span><input type="text" name="FirstName" class="textbox" placeholder="Frst Name"></span></div>
+                            <div><span><input type="text" name="LastEmail" class="textbox" placeholder="Last Name"></span></div>
+                            <div><span><input type="text" name="Email" class="textbox" placeholder="Email"></span></div>
+                            <div><span><input type="text" name="ContactNo" class="textbox" placeholder="Contact No."></span></div>
+                            <div><span><input type="text" name="City" class="textbox" placeholder="City"></span></div>
+                            <div>
+                                <span>
+                                    <select class="textbox">
+                                        <option>Select State</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                    </select>
+                            </div>
+                            <div style="text-align:right;">
+                                <span>
+                                    <input type="submit" name="submit" id="submit" value="Send">
+                                    <button type="button" class="btn btn-default popup-close" data-dismiss="modal">Cancel</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+    <div class="sidebar-right">
+        <div class="ad-placeholder">
+            <img src="~/images/ad1.gif" alt="" id="rightAdvertisement1" />
+        </div>
+        <div class="ad-placeholder" style="margin-top:10px;">
+            <img src="~/images/ad3.gif" alt="" id="rightAdvertisement2" />
+        </div>
+        <div class="ad-placeholder" style="margin-top:10px;">
+            <img src="~/images/ad2.gif" alt="" id="rightAdvertisement3" />
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    @section Scripts{
+        <script src="~/Scripts/User/College/CollegeDetails.js" type="text/javascript"></script>
+    }
+</div>

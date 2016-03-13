@@ -1,0 +1,58 @@
+﻿@model ES.ValueObjects.Admin.OperatorVO
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<h3 class="page-header">Create Operator</h3>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="control-label" for="opFisrtName">First Name</label>
+                    @Html.EditorFor(model => model.opFisrtName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.opFisrtName, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6">
+                    <label class="control-label" for="opLastName">Last Name</label>
+                    @Html.EditorFor(model => model.opLastName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.opLastName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-6">
+                    <label class="control-label" for="opEmail">Email</label>
+                    @Html.EditorFor(model => model.opEmail, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.opEmail, "", new { @class = "text-danger" })
+                </div>
+                <div class="col-md-6">
+                    <label class="control-label" for="opPassword">Password</label>
+                    @Html.PasswordFor(model => model.opPassword, new { @class = "form-control"  })
+                    @Html.ValidationMessageFor(model => model.opPassword, "", new { @class = "text-danger" })
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="form-group">
+        <div class="row">
+            <button type="submit" class="btn btn-default">Create Operator</button>
+        </div>
+    </div>
+}
+

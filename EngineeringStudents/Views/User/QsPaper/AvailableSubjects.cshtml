@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "AvaibleSubjects";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+
+
+<div class="top-header">
+    <h4>Qs Paper for <span>Electrical and Electronics Engineering</span></h4>
+    <h1><small>Nagpur University</small></h1>
+</div>
+
+<div class="wrap semesters-details" id="subjects">
+    <div class="row row2" data-bind="foreach:semesterArray">
+        <div class="col-md-3">
+            <div class="sem-details">
+                <h3 data-bind="text:semName"></h3>
+                <div class="sem-subjects">
+                    <ul data-bind="foreach:subjectArray">
+                        <li><a href="#" title="Technical English"><span data-bind="text:subName,click:$root.GetQsPaperBySubject"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+
+    <script src="~/Scripts/User/Subject/AvailableSubject.js" type="text/javascript"></script>
+}
+
+

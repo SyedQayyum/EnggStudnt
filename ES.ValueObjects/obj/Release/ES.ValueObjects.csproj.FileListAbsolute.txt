@@ -1,0 +1,5 @@
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\bin\Release\ES.ValueObjects.dll
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\bin\Release\ES.ValueObjects.pdb
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\obj\Release\ES.ValueObjects.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\obj\Release\ES.ValueObjects.dll
+E:\Mine Project\EnggStudents.in\ES.ValueObjects\obj\Release\ES.ValueObjects.pdb

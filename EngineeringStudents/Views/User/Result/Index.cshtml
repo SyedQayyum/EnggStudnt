@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<div id="PageBody" style="display:none">
+
+    <div class="sidebar-left" id="universities">
+
+        <div class="u-vmenu">
+            <ul>
+                <li>
+                    <a href="#">List of Universities</a>
+                    <ul data-bind="foreach:universityArray">
+                        <li>
+                            <a href="#"><span data-bind="text:universityName"></span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content" id="results">
+        <div class="ad-placeholder">
+            <img src="~/images/ad4.gif" alt="" id="topAdvertisement" />
+        </div>
+        <div class="content-desc">
+            <div class="results-page">
+                <h1>Latest Results for <span>Nagpur University</span></h1>
+                <div class="results-list">
+                    <div class="result-date">30 july 2015</div>
+                    <ul data-bind="foreach:resultArray">
+                        <li> <a data-bind="attr:{href:resultLink,title:resultHeading}" target="_blank"><span data-bind="text:resultHeading"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pagination-nxt-prev">
+                <nav>
+                    <ul class="pager">
+                        <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Previous Page </a></li>
+                        <li class="next"><a href="#">Next Page  <span aria-hidden="true">&rarr;</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="ad-placeholder">
+                <img src="~/images/ad5.png" alt="" id="bottomAdvertisement1" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="sidebar-right">
+        <div class="ad-placeholder">
+            <img src="~/images/ad1.gif" alt="" id="rightAdvertisement1" />
+        </div>
+        <div class="ad-placeholder" style="margin-top:10px;">
+            <img src="~/images/ad3.gif" alt="" id="rightAdvertisement2" />
+        </div>
+        <div class="ad-placeholder" style="margin-top:10px;">
+            <img src="~/images/ad2.gif" alt="" id="rightAdvertisement3" />
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    @section Scripts{
+
+        <script src="~/Scripts/User/Result/index.js" type="text/javascript"></script>
+    }
+    <script type="text/javascript" src="~/Scripts/vmenuModule.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".u-vmenu").vmenuModule({
+                Speed: 500,
+                autostart: true,
+                autohide: false
+            });
+        });
+    </script>
+</div>

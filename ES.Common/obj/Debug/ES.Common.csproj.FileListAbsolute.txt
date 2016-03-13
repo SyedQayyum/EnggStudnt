@@ -1,0 +1,13 @@
+E:\Mine Project\EngineeringStudents\ES.Common\bin\Debug\ES.Common.dll
+E:\Mine Project\EngineeringStudents\ES.Common\bin\Debug\ES.Common.pdb
+E:\Mine Project\EngineeringStudents\ES.Common\obj\Debug\ES.Common.dll
+E:\Mine Project\EngineeringStudents\ES.Common\obj\Debug\ES.Common.pdb
+E:\Mine Project\PractiseProject\ES.Common\bin\Debug\ES.Common.dll
+E:\Mine Project\PractiseProject\ES.Common\bin\Debug\ES.Common.pdb
+E:\Mine Project\PractiseProject\ES.Common\obj\Debug\ES.Common.csprojResolveAssemblyReference.cache
+E:\Mine Project\PractiseProject\ES.Common\obj\Debug\ES.Common.dll
+E:\Mine Project\PractiseProject\ES.Common\obj\Debug\ES.Common.pdb
+E:\Mine Project\EnggStudents.in\ES.Common\bin\Debug\ES.Common.dll
+E:\Mine Project\EnggStudents.in\ES.Common\bin\Debug\ES.Common.pdb
+E:\Mine Project\EnggStudents.in\ES.Common\obj\Debug\ES.Common.dll
+E:\Mine Project\EnggStudents.in\ES.Common\obj\Debug\ES.Common.pdb

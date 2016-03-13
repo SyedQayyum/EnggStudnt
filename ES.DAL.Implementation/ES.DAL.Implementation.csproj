@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{598F6F21-B0C3-4130-9F85-ACDBF71E331B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ES.DAL.Implementation</RootNamespace>
+    <AssemblyName>ES.DAL.Implementation</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\BranchesDataManager.cs" />
+    <Compile Include="Admin\OperatorDataManager.cs" />
+    <Compile Include="Admin\SemesterDataManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shared\CommonDataManager.cs" />
+    <Compile Include="Shared\ESDbContext.cs" />
+    <Compile Include="User\AdvertisementDataManager.cs" />
+    <Compile Include="User\CollegeDataManager.cs" />
+    <Compile Include="User\ContactDataManager.cs" />
+    <Compile Include="User\DepartmentDataManager.cs" />
+    <Compile Include="User\HomeDataManager.cs" />
+    <Compile Include="User\QsPaperDataManager.cs" />
+    <Compile Include="User\ResultDataManager.cs" />
+    <Compile Include="User\SubjectDataManager.cs" />
+    <Compile Include="User\SyllabusDataManager.cs" />
+    <Compile Include="User\UniversityDataManager.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Common\Core.Common.csproj">
+      <Project>{7f0f70fb-fb63-492f-9a72-96d2b98eaabc}</Project>
+      <Name>Core.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ES.Common\ES.Common.csproj">
+      <Project>{0952131b-caa2-46c2-bb5a-ec6863f92405}</Project>
+      <Name>ES.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ES.DAL.Contract\ES.DAL.Contract.csproj">
+      <Project>{e0b00ced-75e6-4624-af41-05c4ae890290}</Project>
+      <Name>ES.DAL.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ES.DAL.Model\ES.DAL.Model.csproj">
+      <Project>{3fc80bd7-7249-44ee-8879-69c5f91183d8}</Project>
+      <Name>ES.DAL.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

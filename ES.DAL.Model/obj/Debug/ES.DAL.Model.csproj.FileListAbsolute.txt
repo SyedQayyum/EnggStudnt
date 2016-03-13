@@ -1,0 +1,14 @@
+E:\Mine Project\EngineeringStudents\ES.DAL.Model\bin\Debug\ES.DAL.Model.dll
+E:\Mine Project\EngineeringStudents\ES.DAL.Model\bin\Debug\ES.DAL.Model.pdb
+E:\Mine Project\EngineeringStudents\ES.DAL.Model\obj\Debug\ES.DAL.Model.dll
+E:\Mine Project\EngineeringStudents\ES.DAL.Model\obj\Debug\ES.DAL.Model.pdb
+E:\Mine Project\EngineeringStudents\ES.DAL.Model\obj\Debug\ES.DAL.Model.csprojResolveAssemblyReference.cache
+E:\Mine Project\PractiseProject\ES.DAL.Model\bin\Debug\ES.DAL.Model.dll
+E:\Mine Project\PractiseProject\ES.DAL.Model\bin\Debug\ES.DAL.Model.pdb
+E:\Mine Project\PractiseProject\ES.DAL.Model\obj\Debug\ES.DAL.Model.dll
+E:\Mine Project\PractiseProject\ES.DAL.Model\obj\Debug\ES.DAL.Model.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\bin\Debug\ES.DAL.Model.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\bin\Debug\ES.DAL.Model.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\obj\Debug\ES.DAL.Model.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\obj\Debug\ES.DAL.Model.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Model\obj\Debug\ES.DAL.Model.pdb

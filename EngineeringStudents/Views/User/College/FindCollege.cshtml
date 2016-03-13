@@ -1,0 +1,131 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+<div id="PageBody" style="display:none">
+
+    <div class="sidebar-left">
+        <div classs="search=filter">
+            <h2 class="under-line">Search College</h2>
+            <form>
+                <input type="text" class="form-control form-text" placeholder="Type slowly to get list...">
+                <input type="submit" class="search-btn" value="Search">
+            </form>
+        </div>
+
+        <!-- Reviews -->
+        <div class="location_filter" id="reviews">
+            <h2>Reviews</h2>
+            <div class="filter-locations">
+                <ul data-bind="foreach:reviewArray()">
+                    <li>
+                        <label class="checkbox checkbox3">
+                            <input type="checkbox" name="checkbox" data-bind="event:{change:$root.searchCollegeByRating}"><i></i>
+                            <div class="rating rating2">
+                                <span class="star_rating_small"><span class="star star-red star-xl"><span data-bind="style:{width: $root.calWidth($data)}"></span></span></span>
+                            </div>
+                        </label>
+                    </li>
+                    @*<li>
+                            <label class="checkbox checkbox3">
+                                <input type="checkbox" name="checkbox"><i></i>
+                                <div class="rating rating2">
+                                    <span class="star_rating_small"><span class="star star-red star-xl"><span style="width:80%"></span></span></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox checkbox3">
+                                <input type="checkbox" name="checkbox"><i></i>
+                                <div class="rating rating2">
+                                    <span class="star_rating_small"><span class="star star-red star-xl"><span style="width:60%"></span></span></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox checkbox3">
+                                <input type="checkbox" name="checkbox"><i></i>
+                                <div class="rating rating2">
+                                    <span class="star_rating_small"><span class="star star-red star-xl"><span style="width:40%"></span></span></span>
+                                </div>
+                            </label>
+                        </li>
+                        <li>
+                            <label class="checkbox checkbox3">
+                                <input type="checkbox" name="checkbox"><i></i>
+                                <div class="rating rating2">
+                                    <span class="star_rating_small"><span class="star star-red star-xl"><span style="width:20%"></span></span></span>
+                                </div>
+                            </label>
+                        </li>*@
+                </ul>
+            </div>
+        </div>
+        <!-- End Reviews -->
+
+        <div class="location_filter" id="cities">
+            <h2>Select City</h2>
+            <div class="filter-locations">
+                <ul data-bind="foreach:cityArray">
+                    <li><label class="checkbox checkbox3"><input type="checkbox" name="checkbox" data-bind="event:{change:$root.searchCollegeByCity}"><i></i><span data-bind="text:Name"></span></label></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="content">
+        <div class="ad-placeholder">
+            <img src="~/images/ad4.gif" alt="" id="topAdvertisement" />
+        </div>
+
+        <div class="content-desc" id="pageContent">
+            <div class="search-engineering-colleges">
+                <div class="search-colleges">
+                    <!--ko  foreach:collegeArray-->
+                    <div class="search-result-college">
+                        <div class="search-college-logo">
+                            <a href="#"><img data-bind="attr:{src:collLogo,title:collName,alt:collName},click:$root.RedirectToCollegeDetails" /></a>
+                        </div>
+                        <div class="College-logo-desc">
+                            <h3><a href="#"><span data-bind="text:collName,click:$root.RedirectToCollegeDetails"></span></a></h3>
+                            <ul>
+                                <li>
+                                    <div class="rating rating2">
+                                        <span class="star_rating_small">
+                                            <span class="star star-red star-xl">
+                                                <span data-bind="style:{width:collRating}"></span>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li><a href="#" data-bind="click:$root.RedirectToCollegeDetails">View Details</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--/ko-->
+                    <div class="clear"></div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="sidebar-right">
+        <div class="ad-placeholder">
+            <img src="~/images/ad1.gif" alt="" id="rightAdvertisement1" />
+        </div>
+        <div class="ad-placeholder" style="margin-top:10px;">
+            <img src="~/images/ad3.gif" alt="" id="rightAdvertisement2" />
+        </div>
+        <div class="ad-placeholder" style="margin-top:10px;">
+            <img src="~/images/ad2.gif" alt="" id="rightAdvertisement3" />
+        </div>
+    </div>
+
+    @section Scripts{
+        <script src="~/Scripts/User/College/searchColleges.js" type="text/javascript"></script>
+    }
+</div>

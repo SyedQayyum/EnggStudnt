@@ -1,0 +1,25 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<div id="PageBody" style="display:none">
+    <div id="departments">
+        <div class="row row2" data-bind="foreach:departmentsArray">
+            <div class="col-md-4 section1">
+                <div class="threesec">
+                    <h1 data-bind="text:deptAbbrName"></h1>
+                    <p data-bind="text:deptName"></p>
+                    <a href="#" class="seemore" data-bind="click:$root.GetAvailableSubjects">Available Subjects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    @section Scripts{
+        <script src="~/Scripts/User/Home/Index.js" type="text/javascript"></script>
+    }
+</div>
+
+

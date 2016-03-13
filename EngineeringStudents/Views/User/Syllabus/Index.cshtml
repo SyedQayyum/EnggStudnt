@@ -1,0 +1,125 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+<div class="sidebar-left">
+    <div class="sidebar-heading">
+        <h2>Syllabus</h2>
+        <h3>Computer Science & Engineering</h3>
+    </div>
+    <div class="u-vmenu">
+        <ul>
+            <li>
+                <a href="#">Semester I</a>
+                <ul>
+                    <li><a href="#" title="Technical English">Technical English</a></li>
+                    <li><a href="#" title="Mathematics">Mathematics</a></li>
+                    <li><a href="#" title="Engineering Physics">Engineering Physics</a></li>
+                    <li><a href="#" title="Engineering Chemistry">Engineering Chemistry</a></li>
+                    <li><a href="#" title="Engineering Graphics">Engineering Graphics</a></li>
+                    <li><a href="#" title="Fundamentals of Computing and Programming">Fundamentals of Computing and Programming</a></li>
+                    <li><a href="#" title="Computer Practice Laboratory">Computer Practice Laboratory</a></li>
+                    <li><a href="#" title="Engineering Practices Laboratory">Engineering Practices Laboratory</a></li>
+                    <li><a href="#" title="Physics and Chemistry Laboratory">Physics and Chemistry Laboratory</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Semester II</a>
+                <ul>
+                    <li><a href="#" title="Technical English">Technical English</a></li>
+                    <li><a href="#" title="Mathematics">Mathematics</a></li>
+                    <li><a href="#" title="Engineering Physics">Engineering Physics</a></li>
+                    <li><a href="#" title="Engineering Chemistry">Engineering Chemistry</a></li>
+                    <li><a href="#" title="Engineering Graphics">Engineering Graphics</a></li>
+                    <li><a href="#" title="Fundamentals of Computing and Programming">Fundamentals of Computing and Programming</a></li>
+                    <li><a href="#" title="Computer Practice Laboratory">Computer Practice Laboratory</a></li>
+                    <li><a href="#" title="Engineering Practices Laboratory">Engineering Practices Laboratory</a></li>
+                    <li><a href="#" title="Physics and Chemistry Laboratory">Physics and Chemistry Laboratory</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Item 3</a>
+                <ul>
+                    <li>
+                        <a href="#">Subitem 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Subitem 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Subitem 3</a>
+                    </li>
+                    <li>
+                        <a href="#">Subitem 4</a>
+                    </li>
+                    <li>
+                        <a href="#">Subitem 5</a>
+                    </li>
+                    <li>
+                        <a href="#">Subitem 6</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Item without subitems</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="content" id="pageContent">
+    <div class="ad-placeholder">
+        <img src="~/images/ad4.gif" alt="" id="topAdvertisement" />
+    </div>
+    <div class="content-desc">
+        <div class="post_data">
+            <span data-bind="text:syllabusContent"></span>
+        </div>
+
+        <div class="pagination-nxt-prev">
+            <nav>
+                <ul class="pager">
+                    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Previous Page </a></li>
+                    <li class="print"><a href="#"> <span class="fa fa-print"></span> Print</a></li>
+                    <li class="next"><a href="#">Next Page  <span aria-hidden="true">&rarr;</span></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="ad-placeholder">
+            <img src="~/images/ad5.png" alt="" id="bottomAdvertisement1" />
+        </div>
+
+
+    </div>
+</div>
+
+<div class="sidebar-right">
+    <div class="ad-placeholder">
+        <img src="~/images/ad1.gif" alt="" id="rightAdvertisement1" />
+    </div>
+    <div class="ad-placeholder" style="margin-top:10px;">
+        <img src="~/images/ad3.gif" alt="" id="rightAdvertisement2" />
+    </div>
+    <div class="ad-placeholder" style="margin-top:10px;">
+        <img src="~/images/ad2.gif" alt="" id="rightAdvertisement3" />
+    </div>
+</div>
+
+@section Scripts{
+   
+    <script src="~/Scripts/User/Syllabus/index.js" type="text/javascript"></script>
+}
+ <!-- Vertical Accordion -->
+<script type="text/javascript" src="~/Scripts/vmenuModule.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".u-vmenu").vmenuModule({
+            Speed: 500,
+            autostart: true,
+            autohide: true
+        });
+    });
+</script>

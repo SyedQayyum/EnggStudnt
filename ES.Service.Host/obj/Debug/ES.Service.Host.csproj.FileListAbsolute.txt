@@ -1,0 +1,5 @@
+E:\Mine Project\EngineeringStudents\ES.Service.Host\bin\Debug\ES.Service.Host.dll
+E:\Mine Project\EngineeringStudents\ES.Service.Host\bin\Debug\ES.Service.Host.pdb
+E:\Mine Project\EngineeringStudents\ES.Service.Host\obj\Debug\ES.Service.Host.csprojResolveAssemblyReference.cache
+E:\Mine Project\EngineeringStudents\ES.Service.Host\obj\Debug\ES.Service.Host.dll
+E:\Mine Project\EngineeringStudents\ES.Service.Host\obj\Debug\ES.Service.Host.pdb

@@ -1,0 +1,5 @@
+E:\Mine Project\EnggStudents.in\ES.Common\bin\Release\ES.Common.dll
+E:\Mine Project\EnggStudents.in\ES.Common\bin\Release\ES.Common.pdb
+E:\Mine Project\EnggStudents.in\ES.Common\obj\Release\ES.Common.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.Common\obj\Release\ES.Common.dll
+E:\Mine Project\EnggStudents.in\ES.Common\obj\Release\ES.Common.pdb

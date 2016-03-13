@@ -1,0 +1,16 @@
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.DAL.Implementation.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.DAL.Implementation.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\Core.Common.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.Common.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.DAL.Contract.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.DAL.Model.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\AutoMapper.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\Core.Common.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.Common.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.DAL.Contract.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\ES.DAL.Model.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\AutoMapper.pdb
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\bin\Release\AutoMapper.xml
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\obj\Release\ES.DAL.Implementation.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\obj\Release\ES.DAL.Implementation.dll
+E:\Mine Project\EnggStudents.in\ES.DAL.Implementation\obj\Release\ES.DAL.Implementation.pdb

@@ -1,0 +1,7 @@
+E:\Mine Project\EnggStudents.in\ES.Biz.Contract\bin\Release\ES.Biz.Contract.dll
+E:\Mine Project\EnggStudents.in\ES.Biz.Contract\bin\Release\ES.Biz.Contract.pdb
+E:\Mine Project\EnggStudents.in\ES.Biz.Contract\bin\Release\ES.ValueObjects.dll
+E:\Mine Project\EnggStudents.in\ES.Biz.Contract\bin\Release\ES.ValueObjects.pdb
+E:\Mine Project\EnggStudents.in\ES.Biz.Contract\obj\Release\ES.Biz.Contract.csprojResolveAssemblyReference.cache
+E:\Mine Project\EnggStudents.in\ES.Biz.Contract\obj\Release\ES.Biz.Contract.dll
+E:\Mine Project\EnggStudents.in\ES.Biz.Contract\obj\Release\ES.Biz.Contract.pdb
